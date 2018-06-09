@@ -10,7 +10,5 @@ class Anagram
     empty_array = []
     anagram_array.select do |anagram|
       anagram.split("").sort == @word.split("").sort
-    else
-      empty_array
     end
 end
